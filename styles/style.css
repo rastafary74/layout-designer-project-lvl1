@@ -3,14 +3,22 @@ p, span, a, div, form, ul, ol {
 }
 
 .menu {
-display: flex;
-position: fixed;
-background: #fff;
-justify-content: space-between;
-width: 100%;
-align-items: center;
-box-sizing: border-box;
-padding: 15px;
+
+display: flex;
+
+position: fixed;
+
+background: #fff;
+
+justify-content: space-between;
+
+width: 100%;
+
+align-items: center;
+
+box-sizing: border-box;
+
+padding: 15px;
 }
 
 .menu__logo-contain {
@@ -47,11 +55,20 @@ font-weight: bold;
 }
 
 .menu__items-contain {
-display: flex;
-width: 360px;
-justify-content: space-between;
-font-weight: bold;
+
+display: flex;
+
+width: 360px;
+
+justify-content: space-between;
+
+font-weight: bold;
 }
 
 .menu__items_style {
+}
+
+.menu__items_style a {
+color: #000;
+text-decoration: none;
 }
