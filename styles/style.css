@@ -1,0 +1,57 @@
+p, span, a, div, form, ul, ol {
+    font-family: sans-serif;
+}
+
+.menu {
+display: flex;
+position: fixed;
+background: #fff;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+box-sizing: border-box;
+padding: 15px;
+}
+
+.menu__logo-contain {
+
+display: flex;
+
+text-decoration: none;
+
+color: #000;
+
+align-items: center;
+}
+
+.menu__logo-img {
+
+}
+
+.menu__logo-img_size {
+
+max-width: 40px;
+}
+
+.menu__logo-text {
+
+}
+
+.menu__logo-text_style {
+
+font-family: sans-serif;
+
+margin-left: 15px;
+
+font-weight: bold;
+}
+
+.menu__items-contain {
+display: flex;
+width: 360px;
+justify-content: space-between;
+font-weight: bold;
+}
+
+.menu__items_style {
+}
