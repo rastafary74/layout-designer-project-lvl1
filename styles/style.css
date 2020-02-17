@@ -99,21 +99,6 @@ width: 167px;
 width: 100%;
 }
 
-.first-window__content {
-
-color: #fff;
-
-text-align: center;
-
-display: flex;
-
-flex-direction: column;
-
-align-items: center;
-
-justify-content: center;
-}
-
 .first-window__big-head {
 
 font-size: 47px;
