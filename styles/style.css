@@ -40,14 +40,8 @@ input:focus {
     align-items: center;
 }
 
-.menu__logo-img {
-}
-
 .menu__logo-img_size {
     max-width: 40px;
-}
-
-.menu__logo-text {
 }
 
 .menu__logo-text_style {
@@ -61,9 +55,6 @@ input:focus {
     width: 360px;
     justify-content: space-between;
     font-weight: bold;
-}
-
-.menu__items_style {
 }
 
 .menu__items_style a {
@@ -125,9 +116,6 @@ input:focus {
     border: 1px solid #ffb52d;
 }
 
-.our-advantage {
-}
-
 .our-advantage__content-contain {
     max-width: 1200px;
     height: 293px;
@@ -172,9 +160,6 @@ input:focus {
     box-sizing: border-box;
 }
 
-.about-complex__head {
-}
-
 .about-complex__text {
     line-height: 21px;
     margin-bottom: 10px;
@@ -186,9 +171,6 @@ input:focus {
 
 .about-complex__img {
     width: 100%;
-}
-
-.vacation-spot {
 }
 
 .vacation-spot__content {
@@ -204,9 +186,6 @@ input:focus {
     height: 256px;
     padding-left: 200px;
     box-sizing: border-box;
-}
-
-.vacation-spot__head {
 }
 
 .vacation-spot__text {
@@ -225,7 +204,6 @@ input:focus {
 .main-form {
     background: #f8f8f8;
     height: 650px;
-    /* display: flex; */
 }
 
 .main-form__item {
@@ -249,9 +227,6 @@ input:focus {
 
 .main-form__first-part {
     margin-bottom: 25px;
-}
-
-.main-form__second-part {
 }
 
 .main-form__legend {
@@ -313,9 +288,6 @@ input:focus {
     height: 212px;
 }
 
-.footer__item {
-}
-
 .footer__logo-contain {
     display: flex;
     align-items: center;
@@ -329,9 +301,6 @@ input:focus {
 .footer__logo-text {
     padding-left: 14px;
     font-weight: bold;
-}
-
-.footer__copyright {
 }
 
 .footer__head {
