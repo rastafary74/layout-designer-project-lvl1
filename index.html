@@ -32,7 +32,7 @@
         </div>
         <p class="first-window__big-head">ЖК «Лунное море»</p>
         <p class="first-window__small-head">Место, откуда не хочется улетать</p>
-        <a href="#" class="first-window__button">Забронировать</a>
+        <a href="#main-form" class="first-window__button">Забронировать</a>
     </section>
 
     <section class="our-advantage">
@@ -82,6 +82,51 @@
         </div>
     </section>
 
+    <section class="main-form">
+        <form action="" class="main-form__item" id="main-form">
+            <h2 class="main-form__head page_head_h2">Оставьте заявку сегодня!</h2>
+
+            <fieldset class="main-form__fieldset main-form__first-part">
+                <legend class="main-form__legend">Параметры квартиры</legend>
+
+                <label class="main-form__label">
+                    Количество комнат:
+                    <select name="count-room" class="main-form__select">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </label>
+                <label class="main-form__label">
+                    Отделка:
+                    <select name="finishing" class="main-form__select">
+                        <option value="">Без отделки</option>
+                        <option value="">Черновая отделка</option>
+                        <option value="">VIP отделка</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset class="main-form__fieldset main-form__second-part">
+                <legend class="main-form__legend">Контактная информация</legend>
+
+                <label class="main-form__label">
+                    Имя:
+                    <input type="text" name="name" class="main-form__input">
+                </label>
+                <label class="main-form__label">
+                    Телефон:
+                    <input type="text" name="phone" class="main-form__input">
+                </label>
+                <label class="main-form__label">
+                    E-mail:
+                    <input type="text" name="email" class="main-form__input">
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Отправить" class="main-form__submit">
+        </form>
+    </section>
 
 </main>
 
