@@ -18,9 +18,9 @@
 
     <nav>
         <ul class="menu__items-contain menu__items_style">
-            <li><a href="#">Преимущества</a></li>
-            <li><a href="#">О ЖК</a></li>
-            <li><a href="#">Места для отдыха</a></li>
+            <li><a href="#our-advantage">Преимущества</a></li>
+            <li><a href="#about-complex">О ЖК</a></li>
+            <li><a href="#vacation-spot">Места для отдыха</a></li>
         </ul>
     </nav>
 </header>
@@ -35,7 +35,7 @@
         <a href="#main-form" class="first-window__button">Забронировать</a>
     </section>
 
-    <section class="our-advantage">
+    <section class="our-advantage" id="our-advantage">
         <div class="our-advantage__content-contain">
             <div class="our-advantage__item">
                 <h2 class="our-advantage__head page_head_h2">Уникальный вид</h2>
@@ -52,7 +52,7 @@
         </div>
     </section>
 
-    <section class="about-complex">
+    <section class="about-complex" id="about-complex">
         <div class="about-complex__content page_column_1100">
             <div class="about-complex__text-contain">
                 <h2 class="about-complex__head page_head_h2">О ЖК «Лунное море»</h2>
@@ -67,7 +67,7 @@
         </div>
     </section>
 
-    <section class="vacation-spot">
+    <section class="vacation-spot" id="vacation-spot">
         <div class="vacation-spot__content page_column_1100">
             <div class="vacation-spot__text-contain">
                 <h2 class="vacation-spot__head page_head_h2">Места для отдыха</h2>
@@ -130,8 +130,33 @@
 
 </main>
 
-<footer>
-    // Подвал сайта. Обычно здесь находится контактная информация, дополнительное меню, юридическая информация о компании
+<footer class="footer">
+    <div class="footer__content">
+        <div class="footer__item">
+            <div class="footer__logo-contain">
+                <img src="images/logo.svg" alt="Логотип" class="footer__logo-img">
+                <p class="footer__logo-text">Лунное море</p>
+            </div>
+
+            <p class="footer__copyright">
+                &#169; 2032
+            </p>
+        </div>
+        <div class="footer__item">
+            <h3 class="footer__head">Проектная документация</h3>
+            <ul class="footer__ul">
+                <li><a href="#" class="footer__link">Скачать</a></li>
+                <li><a href="#" class="footer__link">Посмотреть на сайте</a></li>
+            </ul>
+        </div>
+        <div class="footer__item">
+            <h3 class="footer__head">О застройщике</h3>
+            <ul class="footer__ul">
+                <li><a href="#" class="footer__link">Отзывы</a></li>
+                <li><a href="#" class="footer__link">Сайт компании</a></li>
+            </ul>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
