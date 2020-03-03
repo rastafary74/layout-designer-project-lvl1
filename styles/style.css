@@ -21,6 +21,40 @@ input:focus {
     font-size: 23px;
 }
 
+.display_flex {
+    display: flex;
+}
+
+.page_button {
+    text-decoration: none;
+    box-sizing: border-box;
+    display: block;
+    padding: 12px 0;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 160px;
+}
+
+.align_items-center {
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.background_f8f8f8 {
+    background: #f8f8f8;
+}
+
+.padding_right_200 {
+    padding-right: 200px;
+}
+
+.padding_left_200 {
+    padding-left: 200px;
+}
+
 .menu {
     display: flex;
     position: fixed;
@@ -34,10 +68,8 @@ input:focus {
 }
 
 .menu__logo-contain {
-    display: flex;
     text-decoration: none;
     color: #000;
-    align-items: center;
 }
 
 .menu__logo-img_size {
@@ -47,14 +79,11 @@ input:focus {
 .menu__logo-text_style {
     font-family: sans-serif;
     margin-left: 15px;
-    font-weight: bold;
 }
 
 .menu__items-contain {
-    display: flex;
     width: 360px;
     justify-content: space-between;
-    font-weight: bold;
 }
 
 .menu__items_style a {
@@ -89,7 +118,6 @@ input:focus {
 
 .first-window__big-head {
     font-size: 47px;
-    font-weight: bold;
     margin-bottom: 5px;
 }
 
@@ -100,14 +128,7 @@ input:focus {
 
 .first-window__button {
     color: #fff;
-    text-decoration: none;
-    box-sizing: border-box;
-    width: 160px;
     border: 1px solid #fff;
-    display: block;
-    padding: 12px 0;
-    border-radius: 10px;
-    font-size: 20px;
 }
 
 .first-window__button:hover {
@@ -121,8 +142,6 @@ input:focus {
     height: 293px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     box-sizing: border-box;
 }
 
@@ -132,7 +151,6 @@ input:focus {
 }
 
 .our-advantage__head {
-    font-weight: bold;
     margin-bottom: 23px;
     font-size: 23px;
 }
@@ -143,66 +161,34 @@ input:focus {
     line-height: 21px;
 }
 
-.about-complex {
-    background: #f8f8f8;
-}
-
-.about-complex__content {
-    display: flex;
+.about-item__content {
     height: 380px;
-    align-items: center;
 }
 
-.about-complex__text-contain {
-    flex-basis: 739px;
-    height: 256px;
-    padding-right: 200px;
-    box-sizing: border-box;
-}
-
-.about-complex__text {
-    line-height: 21px;
-    margin-bottom: 10px;
-}
-
-.about-complex__img-contain {
-    flex-basis: 390px;
-}
-
-.about-complex__img {
-    width: 100%;
-}
-
-.vacation-spot__content {
-    box-sizing: border-box;
-    display: flex;
-    height: 380px;
-    align-items: center;
+.about-item_revers {
     flex-direction: row-reverse;
 }
 
-.vacation-spot__text-contain {
+.about-item__text-contain {
     flex-basis: 739px;
     height: 256px;
-    padding-left: 200px;
     box-sizing: border-box;
 }
 
-.vacation-spot__text {
+.about-item__text {
     line-height: 21px;
     margin-bottom: 10px;
 }
 
-.vacation-spot__img-contain {
+.about-item__img-contain {
     flex-basis: 390px;
 }
 
-.vacation-spot__img {
+.about-item__img {
     width: 100%;
 }
 
 .main-form {
-    background: #f8f8f8;
     height: 650px;
 }
 
@@ -220,7 +206,6 @@ input:focus {
     border: 2px solid #057f67;
     margin-bottom: 20px;
     position: relative;
-    display: flex;
     flex-direction: column;
     padding: 0 21px;
 }
@@ -232,17 +217,13 @@ input:focus {
 .main-form__legend {
     color: #09d3ac;
     font-size: 19px;
-    font-weight: bold;
     left: 21px;
     margin-bottom: 25px;
 }
 
 .main-form__label {
     margin-bottom: 24px;
-    font-weight: bold;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .main-form__select {
@@ -262,10 +243,6 @@ input:focus {
     border: 1px solid #0ad3ac;
     color: #0ad3ac;
     background: transparent;
-    padding: 11px 23px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -282,15 +259,11 @@ input:focus {
 .footer__content {
     max-width: 1300px;
     margin: 0 auto;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
     height: 212px;
 }
 
 .footer__logo-contain {
-    display: flex;
-    align-items: center;
     margin-bottom: 12px;
 }
 
@@ -300,11 +273,9 @@ input:focus {
 
 .footer__logo-text {
     padding-left: 14px;
-    font-weight: bold;
 }
 
 .footer__head {
-    font-weight: bold;
     margin-bottom: 15px;
 }
 
