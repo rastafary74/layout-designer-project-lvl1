@@ -2,6 +2,7 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 21px;
+    padding-top: 70px;
 }
 
 input,
@@ -19,7 +20,7 @@ input:focus {
 
 .page-head-h2 {
     font-weight: bold;
-    margin-bottom: 23px;
+    margin-bottom: 25px;
     font-size: 23px;
 }
 
@@ -35,6 +36,29 @@ input:focus {
     border-radius: 10px;
     font-size: 20px;
     width: 160px;
+}
+
+.page-button-white {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.page-button-white:hover {
+    color: #000;
+    background: #ffb52d;
+    border: 1px solid #ffb52d;
+}
+
+.page-button-yellow {
+    border: 1px solid #0ad3ac;
+    color: #0ad3ac;
+    background: transparent;
+    cursor: pointer;
+}
+
+.page-button-yellow:hover {
+    background: #0ad3ac;
+    color: #fff;
 }
 
 .align-items-center {
@@ -62,6 +86,31 @@ input:focus {
     text-decoration: none;
 }
 
+.white-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
 .menu {
     display: flex;
     position: fixed;
@@ -72,6 +121,7 @@ input:focus {
     box-sizing: border-box;
     padding: 15px;
     z-index: 100;
+    top: 0;
 }
 
 .menu-logo-img-size {
@@ -90,73 +140,50 @@ input:focus {
     text-decoration: underline;
 }
 
-.first-window {
-    background: url('../images/banner.jpg') center -329px;
+.proposition {
+    background: url('../images/banner.jpg') center -437px;
+    padding: 75px 0;
+}
+
+.proposition-column {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 117px;
-    height: 404px;
     justify-content: center;
     background-size: 100%;
     text-align: center;
     color: #fff;
 }
 
-.first-window-logo-contain {
+.proposition-logo-contain {
     width: 167px;
 }
 
-.first-window-log-img {
+.proposition-log-img {
     width: 100%;
 }
 
-.first-window-big-head {
+.proposition-big-head {
     font-size: 47px;
-    margin-bottom: 17px;
-}
-
-.first-window-small-head {
-    font-size: 21px;
-    margin-bottom: 30px;
-}
-
-.first-window-button {
-    color: #fff;
-    border: 1px solid #fff;
-}
-
-.first-window-button:hover {
-    color: #000;
-    background: #ffb52d;
-    border: 1px solid #ffb52d;
 }
 
 .our-advantage-content-contain {
     max-width: 1200px;
-    height: 293px;
     margin: 0 auto;
     display: flex;
     box-sizing: border-box;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .our-advantage-item {
     flex-grow: 1;
-    flex-basis: 300px;
-}
-
-.our-advantage-head {
-    margin-bottom: 23px;
-    font-size: 23px;
-}
-
-.our-advantage-text {
-    padding-right: 34px;
-    font-size: 16px;
+    padding: 80px 0;
+    max-width: 30%;
 }
 
 .about-item-content {
-    height: 380px;
+    min-height: 380px;
 }
 
 .about-item-revers {
@@ -165,17 +192,13 @@ input:focus {
 
 .about-item-text-contain {
     flex-basis: 739px;
-    height: 256px;
+    min-height: 256px;
     box-sizing: border-box;
-}
-
-.about-item-text {
-    margin-bottom: 10px;
-    font-size: 16px;
 }
 
 .about-item-img-contain {
     flex-basis: 390px;
+    min-width: 377px;
 }
 
 .about-item-img {
@@ -183,7 +206,7 @@ input:focus {
 }
 
 .main-form {
-    height: 650px;
+    min-height: 650px;
 }
 
 .main-form-item {
@@ -198,27 +221,18 @@ input:focus {
 
 .main-form-fieldset {
     border: 2px solid #057f67;
-    margin-bottom: 20px;
     position: relative;
     flex-direction: column;
     padding: 0 21px;
 }
 
-.main-form-first-part {
-    margin-bottom: 25px;
-}
-
 .main-form-legend {
     color: #09d3ac;
-    font-size: 19px;
     left: 21px;
-    margin-bottom: 25px;
 }
 
 .main-form-label {
-    margin-bottom: 24px;
     justify-content: space-between;
-    font-size: 16px;
 }
 
 .main-form-select {
@@ -234,18 +248,6 @@ input:focus {
     padding: 7px;
 }
 
-.main-form-submit {
-    border: 1px solid #0ad3ac;
-    color: #0ad3ac;
-    background: transparent;
-    cursor: pointer;
-}
-
-.main-form-submit:hover {
-    background: #0ad3ac;
-    color: #fff;
-}
-
 .footer {
     color: #fff;
     background: #303846;
@@ -258,10 +260,6 @@ input:focus {
     height: 212px;
 }
 
-.footer-logo-contain {
-    margin-bottom: 12px;
-}
-
 .footer-logo-img {
     width: 36px;
 }
@@ -270,21 +268,11 @@ input:focus {
     padding-left: 14px;
 }
 
-.footer-head {
-    margin-bottom: 15px;
-}
-
 .footer-ul {
     padding-left: 40px;
 }
 
 .footer-ul li {
-    margin-bottom: 6px;
     list-style: disc;
 }
 
-.footer-link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-}
