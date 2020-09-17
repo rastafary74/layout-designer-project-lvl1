@@ -1,12 +1,13 @@
 :root {
-    --head-height: 70px;
+    --head-height: 60px;
 }
 
 body {
     font-family: sans-serif;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 1.5;
     padding-top: var(--head-height);
+    color: #303846;
 }
 
 input,
@@ -24,8 +25,8 @@ input:focus {
 
 .page-head-h2 {
     font-weight: bold;
-    margin-bottom: 25px;
-    font-size: 23px;
+    margin-bottom: 0.5em;
+    font-size: 1.8em;
 }
 
 .display-flex {
@@ -36,9 +37,9 @@ input:focus {
     text-decoration: none;
     box-sizing: border-box;
     display: block;
-    padding: 12px 0;
+    padding: 10px 0;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 1em;
     width: 160px;
 }
 
@@ -73,8 +74,8 @@ input:focus {
     font-weight: bold;
 }
 
-.background-f8f8f8 {
-    background: #f8f8f8;
+.background-f7f7f7 {
+    background: #f7f7f7;
 }
 
 .padding-right-200 {
@@ -123,14 +124,17 @@ input:focus {
 .head {
     position: fixed;
     background: #fff;
-    justify-content: space-between;
     width: 100%;
-    align-items: center;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px 20px;
     z-index: 100;
     top: 0;
     height: var(--head-height);
+}
+
+.head-menu-contain {
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu-logo-img-size {
@@ -147,7 +151,8 @@ input:focus {
 
 .proposition {
     background: url('../images/banner.jpg') center -437px;
-    padding: 75px 0;
+    padding: 60px 0;
+    background-size: cover;
 }
 
 .proposition-column {
@@ -169,7 +174,7 @@ input:focus {
 }
 
 .proposition-big-head {
-    font-size: 47px;
+    font-size: 3em;
 }
 
 .our-advantage-content-contain {
@@ -182,12 +187,13 @@ input:focus {
 
 .our-advantage-item {
     flex-grow: 1;
-    padding: 80px 0;
+    padding: 60px 0;
     max-width: 30%;
 }
 
 .about-item-content {
-    min-height: 380px;
+    padding: 60px 0;
+    justify-content: space-between;
 }
 
 .about-item-revers {
@@ -195,13 +201,13 @@ input:focus {
 }
 
 .about-item-text-contain {
-    flex-basis: 739px;
+    flex-basis: 45%;
     min-height: 256px;
     box-sizing: border-box;
 }
 
 .about-item-img-contain {
-    flex-basis: 390px;
+    flex-basis: 30%;
     min-width: 377px;
 }
 
@@ -210,13 +216,12 @@ input:focus {
 }
 
 .main-form {
-    min-height: 650px;
+    padding: 60px 0;
 }
 
 .main-form-item {
     max-width: 460px;
     margin: 0 auto;
-    padding-top: 70px;
 }
 
 .main-form-head {
@@ -224,7 +229,7 @@ input:focus {
 }
 
 .main-form-fieldset {
-    border: 2px solid #057f67;
+    border: 2px solid #09d3ac;
     position: relative;
     flex-direction: column;
     padding: 0 21px;
@@ -257,11 +262,13 @@ input:focus {
     background: #303846;
 }
 
+.footer-head {
+    font-size: 1em;
+}
+
 .footer-content {
-    max-width: 1300px;
-    margin: 0 auto;
     justify-content: space-around;
-    height: 212px;
+    padding: 60px 0;
 }
 
 .footer-logo-img {

@@ -10,19 +10,21 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<header class="head display-flex">
-    <a href="/" class="display-flex align-items-center style-link-black">
-        <img src="images/logo.svg" alt="Логотип" class="menu-logo-img-size">
-        <p class="menu-logo-text-style bold">Лунное море</p>
-    </a>
+<header class="head">
+    <div class="head-menu-contain page-column-1000 display-flex">
+        <a href="/" class="display-flex align-items-center style-link-black">
+            <img src="images/logo.svg" alt="Логотип" class="menu-logo-img-size">
+            <p class="menu-logo-text-style bold">Лунное море</p>
+        </a>
 
-    <nav>
-        <ul class="display-flex bold">
-            <li><a class="menu-link style-link-black pw-10" href="#our-advantage">Преимущества</a></li>
-            <li><a class="menu-link style-link-black pw-10" href="#about-complex">О ЖК</a></li>
-            <li><a class="menu-link style-link-black pw-10" href="#vocation-item">Места для отдыха</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul class="display-flex bold">
+                <li><a class="menu-link style-link-black pw-10" href="#our-advantage">Преимущества</a></li>
+                <li><a class="menu-link style-link-black pw-10" href="#about-complex">О ЖК</a></li>
+                <li><a class="menu-link style-link-black pw-10" href="#vocation-item">Места для отдыха</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
 <main>
@@ -40,23 +42,23 @@
     <section id="our-advantage">
         <div class="our-advantage-content-contain page-column-1000">
             <div class="our-advantage-item">
-                <h2 class="fs-25 page-head-h2 bold mb-25">Уникальный вид</h2>
+                <h2 class="page-head-h2 bold">Уникальный вид</h2>
                 <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
             </div>
             <div class="our-advantage-item">
-                <h2 class="fs-25 page-head-h2 bold mb-25">Инфраструктура</h2>
+                <h2 class="page-head-h2 bold">Инфраструктура</h2>
                 <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
             </div>
             <div class="our-advantage-item">
-                <h2 class="fs-25 page-head-h2 bold mb-25">Близость к Москве</h2>
+                <h2 class="page-head-h2 bold">Близость к Москве</h2>
                 <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
             </div>
         </div>
     </section>
 
-    <section class="background-f8f8f8" id="about-complex">
+    <section class="background-f7f7f7" id="about-complex">
         <div class="about-item-content page-column-1000 display-flex align-items-center">
-            <div class="about-item-text-contain padding-right-200">
+            <div class="about-item-text-contain">
                 <h2 class="about-item-head page-head-h2">О ЖК «Лунное море»</h2>
 
                 <p class="mb-10">Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -71,7 +73,7 @@
 
     <section id="vocation-item">
         <div class="about-item-content about-item-revers page-column-1000 display-flex align-items-center">
-            <div class="about-item-text-contain padding-left-200">
+            <div class="about-item-text-contain">
                 <h2 class="about-item-head page-head-h2">Места для отдыха</h2>
 
                 <p class="mb-10">Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
@@ -84,7 +86,7 @@
         </div>
     </section>
 
-    <section class="main-form background-f8f8f8">
+    <section class="main-form background-f7f7f7">
         <form action="/people" class="main-form-item" id="main-form">
             <h2 class="main-form-head page-head-h2">Оставьте заявку сегодня!</h2>
 
@@ -133,26 +135,26 @@
 </main>
 
 <footer class="footer">
-    <div class="footer-content display-flex align-items-center">
+    <div class="footer-content display-flex page-column-1000 ">
         <div>
             <div class="display-flex align-items-center mb-10">
                 <img src="images/logo.svg" alt="Логотип" class="footer-logo-img">
-                <p class="footer-logo-text bold">Лунное море</p>
+                <p class="footer-logo-text bold footer-head">Лунное море</p>
             </div>
 
-            <p>
+            <small>
                 &#169; 2032
-            </p>
+            </small>
         </div>
         <div>
-            <h3 class="mb-15 bold">Проектная документация</h3>
+            <h3 class="mb-15 bold footer-head">Проектная документация</h3>
             <ul class="footer-ul">
                 <li class="mb-10"><a href="#" class="white-link">Скачать</a></li>
                 <li class="mb-10"><a href="#" class="white-link">Посмотреть на сайте</a></li>
             </ul>
         </div>
         <div>
-            <h3 class="mb-15 bold">О застройщике</h3>
+            <h3 class="mb-15 bold footer-head">О застройщике</h3>
             <ul class="footer-ul">
                 <li class="mb-10"><a href="#" class="white-link">Отзывы</a></li>
                 <li class="mb-10"><a href="#" class="white-link">Сайт компании</a></li>
