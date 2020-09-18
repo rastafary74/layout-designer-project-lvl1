@@ -150,7 +150,7 @@ input:focus {
 }
 
 .proposition {
-    background: url('../images/banner.jpg') center -437px;
+    background: url('../images/banner.jpg') center;
     padding: 60px 0;
     background-size: cover;
 }
